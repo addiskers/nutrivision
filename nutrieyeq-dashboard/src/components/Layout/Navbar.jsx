@@ -44,8 +44,7 @@ const Navbar = ({
         <h1 className="text-2xl sm:text-[32px] font-ibm-plex font-bold leading-8">
           <span className="text-[#009da5]">SkyQuest - </span>
           <span className="text-[#0f1729]">Nutri</span>
-          <span className="text-[#b455a0]">Eye</span>
-          <span className="text-[#0f1729]">Q</span>
+          <span className="text-[#b455a0]">Vision</span>
         </h1>
       </div>
 
