@@ -46,7 +46,7 @@ services:
 
   frontend:
     build:
-      context: ./nutrivision-dashboard
+      context: ./nutrieyeq-dashboard
       dockerfile: Dockerfile
       args:
         VITE_API_URL: ${VITE_API_URL:-http://localhost/api}
