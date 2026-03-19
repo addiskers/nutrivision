@@ -4,7 +4,7 @@ services:
     container_name: uat-mongodb
     restart: unless-stopped
     environment:
-      MONGO_INITDB_DATABASE: ${DATABASE_NAME:-nutrivision_uat}
+      MONGO_INITDB_DATABASE: ${DATABASE_NAME:-nutrivision}
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
     ports:
